@@ -7,6 +7,7 @@
 -  컴퓨터 공학의 기초부터 심화 개념까지 차근차근 다루며 폭넓은 이해를 목표로 합니다.
 - 단순히 글로만 정리하는 것을 넘어, 직접 말하고 설명하는 연습을 통해 면접 상황을 대비합니다.
 
+<br>
 
 ## 🥔 Members
 |이름|GitHub|이름|GitHub|
@@ -15,6 +16,8 @@
 |김동현|[@valofosho](https://github.com/valofosho)|양대천|[@bigskyyang](https://github.com/bigskyyang)|
 |박찬석|[@ckstjrl](https://github.com/ckstjrl)|오지수|[@ohjisu320](https://github.com/ojisu320)|
 |서예영|[@aeongseo](https://github.com/aeongseo)|황승준|[@sngjuni](https://github.com/sngjuni)|
+
+<br>
 
 ## 🌳 Rules
 
@@ -53,7 +56,7 @@
 
     </details>
 
-    
+<br>
 
 ## 🏫 Weekly Study Topics
 
@@ -86,3 +89,4 @@
 | 9 | 트랜잭션 격리 수준 | 인덱스 | 조인 알고리즘 | 정규화 & 반정규화 | DB Lock & 동시성 제어 |
 | 10 (DB + 디자인패턴) | 분산 DB | NoSQL | 싱글톤 & 팩토리 | 전략 & 템플릿 메서드 | 옵저버 & 퍼블리셔-서브스크라이버 |
 | 11 | 어댑터 & 데코레이터 & 프록시 | 빌더 & 커맨드 |  |  |  |
+
