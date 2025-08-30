@@ -1,7 +1,6 @@
 # 🖥️ CS 스터디
 
-## 🎯 Study Goals
-본 스터디는 **CS 핵심 개념을 함께 학습하고 공유하며, 면접 대비까지 이어지는 학습 문화를 만들기 위해** 운영됩니다.
+## 🎯 Goals
 
 - 매일 정해진 CS 핵심 키워드를 학습하고 기록하여 꾸준히 지식을 쌓습니다.
 -  컴퓨터 공학의 기초부터 심화 개념까지 차근차근 다루며 폭넓은 이해를 목표로 합니다.
@@ -31,36 +30,31 @@
 - 발표 후에는 조원들과 함께 **질의응답 및 피드백**을 진행합니다.
 - **피드백 내용을 개인 정리본에 반영**하여 학습 내용을 보완합니다.
 
-### GitHub 운영 규칙
+### 기타 운영 규칙
+- <a href="docs/PR_Commit_Rule.md">PR & Commit 규칙</a>
 - 평일 학습을 하지 못한 경우, **토요일까지 학습 후 업로드** 가능합니다.
 - 매주 **금~토에 PR** 진행, 일요일에 Merge 진행합니다.
-- <a href="docs/PR_Commit_Rule.md">PR & Commit 규칙은 이곳에서 확인 가능합니다.</a>
-- 폴더 및 파일 생성 시 영어로 작성합니다. 
+- 본인 폴더를 생성하고, 아래에 주제별 폴더를 생성합니다.
     <details>
-    <summary>📚 Weekly Study Topics (Eng)</summary>
+    <summary>폴더 및 파일 생성 예시</summary>
 
-    | Week | Mon | Tue | Wed | Thu | Fri |
-    |------|-----|-----|-----|-----|-----|
-    | 1 (Computer Architecture) | Von Neumann Architecture | CPU & Registers | Cache Memory | Instruction Cycle & Pipelining | Interrupts |
-    | 2 | RISC vs CISC | Clock & CPI | Parallel Processing & Multi-core | Bus Architecture & I/O |  |
-    | 3 (Operating System) | Process Concept & State Transition | Process vs Thread | Scheduling Algorithms | Context Switching | Synchronization Techniques |
-    | 4 | Deadlock | Memory Management | Paging & Segmentation | Virtual Memory & Page Replacement |  |
-    | 5 | File System Basics | File Access Methods | I/O Systems & Disk Scheduling | System Calls & OS Structure | IPC & Virtualization/Security |
-    | 6 (Network) | OSI 7 Layers & TCP/IP | Data Link Layer | IP Addressing | Routing | TCP vs UDP |
-    | 7 | 3-Way/4-Way Handshake | Flow Control & Congestion Control | NAT, VPN, Firewall | DNS & DHCP | HTTP / HTTPS |
-    | 8 (Network + DB) | Load Balancing & CDN | REST API | Data Model & Schema | Relational DB Basics | Transactions & ACID |
-    | 9 | Transaction Isolation Levels | Indexes | Join Algorithms | Normalization & Denormalization | DB Locks & Concurrency Control |
-    | 10 (DB + Design Patterns) | Distributed DB | NoSQL | Singleton & Factory | Strategy & Template Method | Observer & Publisher-Subscriber |
-    | 11 | Adapter, Decorator & Proxy | Builder & Command |  |  |  |
-    | 12 |  |  |  |  |  |
-
+    ```
+    aeongseo/
+    ├─ ComputerArchitecture/
+    │ ├─ 폰 노이만 구조.md
+    │ └─ CPU & 레지스터.md
+    ├─ OperatingSystem/
+    │ ├─ 프로세스 개념 & 상태 전이.md
+    │ └─ 프로세스 vs 스레드.md
+    └─ Network/
+    ```
     </details>
 
 <br>
 
 ## 🏫 Weekly Study Topics
 
-## 9월
+## 🍁 9월
 
 | 주차 | 월 | 화 | 수 | 목 | 금 |
 |------|-----|-----|-----|-----|-----|
@@ -72,7 +66,7 @@
 
 
 
-## 10월
+## 🎃 10월
 
 | 주차 | 월 | 화 | 수 | 목 | 금 |
 |------|-----|-----|-----|-----|-----|
@@ -82,11 +76,10 @@
 
 
 
-## 11월
+## 🍂 11월
 
 | 주차 | 월 | 화 | 수 | 목 | 금 |
 |------|-----|-----|-----|-----|-----|
 | 9 | 트랜잭션 격리 수준 | 인덱스 | 조인 알고리즘 | 정규화 & 반정규화 | DB Lock & 동시성 제어 |
 | 10 (DB + 디자인패턴) | 분산 DB | NoSQL | 싱글톤 & 팩토리 | 전략 & 템플릿 메서드 | 옵저버 & 퍼블리셔-서브스크라이버 |
 | 11 | 어댑터 & 데코레이터 & 프록시 | 빌더 & 커맨드 |  |  |  |
-
