@@ -1,24 +1,66 @@
-# cs_study_test
+# 🖥️ CS 스터디
 
-## 🎯목표
-- 
+## 🎯 Study Goals
+본 스터디는 **CS 핵심 개념을 함께 학습하고 공유하며, 면접 대비까지 이어지는 학습 문화를 만들기 위해** 운영됩니다.
 
-## 🥔스터디원
-|이름|GitHub|
-|---|---|
-|김기남|[@kinam-ssafy](https://github.com/kinam-ssafy)|
-|김동현|[@valofosho](https://github.com/valofosho)|
-|박찬석|[@ckstjrl](https://github.com/ckstjrl)|
-|서예영|[@aeongseo](https://github.com/aeongseo)|
-|신유정|[@miayujeong](https://github.com/miayujeong)|
-|양대천|[@bigskyyang](https://github.com/bigskyyang)|
-|오지수|[@ohjisu320](https://github.com/ojisu320)|
-|황승준|[@sngjuni](https://github.com/sngjuni)|
-
-## 🌳규칙
+- 매일 정해진 CS 핵심 키워드를 학습하고 기록하여 꾸준히 지식을 쌓습니다.
+-  컴퓨터 공학의 기초부터 심화 개념까지 차근차근 다루며 폭넓은 이해를 목표로 합니다.
+- 단순히 글로만 정리하는 것을 넘어, 직접 말하고 설명하는 연습을 통해 면접 상황을 대비합니다.
 
 
-## 학습 주제
+## 🥔 Members
+|이름|GitHub|이름|GitHub|
+|---|---|---|---|
+|김기남|[@kinam-ssafy](https://github.com/kinam-ssafy)|신유정|[@miayujeong](https://github.com/miayujeong)|
+|김동현|[@valofosho](https://github.com/valofosho)|양대천|[@bigskyyang](https://github.com/bigskyyang)|
+|박찬석|[@ckstjrl](https://github.com/ckstjrl)|오지수|[@ohjisu320](https://github.com/ojisu320)|
+|서예영|[@aeongseo](https://github.com/aeongseo)|황승준|[@sngjuni](https://github.com/sngjuni)|
+
+## 🌳 Rules
+
+### 학습 & 기록
+- 평일에는 매 주차별 정해진 주제를 학습하고 Markdown 형식으로 정리하여 GitHub에 업로드합니다.
+- 학습 자료는 인터넷 검색, 교재, 강의 등 자유롭게 참고하며, 각자 정리 방식이 달라도 괜찮습니다.
+
+### 오프라인 모임
+- 8명을 2개의 조로 나누어, 조별로 주 1회 오프라인 모임을 가집니다.
+- 모임에서는 공부했던 주제 중 1~2개씩을 맡아 약 5분간 발표를 진행합니다.
+- 발표 후에는 조원들과 함께 질의응답 및 피드백을 진행합니다.
+- 피드백 내용을 개인 정리본에 반영하여 학습 내용을 보완합니다.
+
+### GitHub 운영 규칙
+- 평일 학습을 하지 못한 경우, 토요일까지 학습 후 업로드 가능합니다.
+- 매주 금~토에 PR 진행, 일요일에 Merge 진행합니다.
+- PR 규칙
+    - PR 제목은 '(이름) / 1주차 학습 내용 정리'와 같이 작성합니다.
+    - PR 내용에는 학습 주제별 요약과 참고 자료를 포함하여 작성합니다.
+    - 해당하는 주제 라벨을 선택합니다.
+- commit 형식
+    - type
+        - `docs` : 새로운 정리 자료 추가 / 기존 문서에 내용 추가
+        - `fix` : 오타, 그림/링크/표 경로 수정
+        - `chore` : 폴더 생성, 파일 이름 변경, 레포 구조 관리
+    - scope
+        - 주차 + 주제 형태로 작성 : `week1-CA`, `week3-OS`, `week6-network` 등
+          |주제|scope|
+          |---|---|
+          |컴퓨터 구조|`CompArch`|
+          |운영체제|`OS`|
+          |네트워크|`Network`|
+          |데이터베이스|`DB`|
+          |디자인 패턴|`DP`|
+    - subject
+        - 구체적인 작업 내용 작성 (50자 내외)
+    - 예시
+        - `docs(week1-CompArch) : 폰 노이만 구조 정리본 생성`
+        - `fix(week3-OS) : 프로세스 상태 표 오타 수정`
+        - `chore(week4-) : 'Cash_Memory.md' -> 'Cache_Memory.md' 파일명 수정`
+    
+
+## 🏫 Study Topics
+
+### 9월
+---
 ||월|화|수|목|금|
 |---|---|---|---|---|---|
 |1주차 (25.09.01-25.09.05)|폰 노이만 구조|CPU & 레지스터|캐시 메모리|명령어 사이클 & 파이프라이닝|인터럽트|
