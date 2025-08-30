@@ -31,40 +31,58 @@
 ### GitHub 운영 규칙
 - 평일 학습을 하지 못한 경우, 토요일까지 학습 후 업로드 가능합니다.
 - 매주 금~토에 PR 진행, 일요일에 Merge 진행합니다.
-- PR 규칙
-    - PR 제목은 '(이름) / 1주차 학습 내용 정리'와 같이 작성합니다.
-    - PR 내용에는 학습 주제별 요약과 참고 자료를 포함하여 작성합니다.
-    - 해당하는 주제 라벨을 선택합니다.
-- commit 형식
-    - type
-        - `docs` : 새로운 정리 자료 추가 / 기존 문서에 내용 추가
-        - `fix` : 오타, 그림/링크/표 경로 수정
-        - `chore` : 폴더 생성, 파일 이름 변경, 레포 구조 관리
-    - scope
-        - 주차 + 주제 형태로 작성 : `week1-CA`, `week3-OS`, `week6-network` 등
-          |주제|scope|
-          |---|---|
-          |컴퓨터 구조|`CompArch`|
-          |운영체제|`OS`|
-          |네트워크|`Network`|
-          |데이터베이스|`DB`|
-          |디자인 패턴|`DP`|
-    - subject
-        - 구체적인 작업 내용 작성 (50자 내외)
-    - 예시
-        - `docs(week1-CompArch) : 폰 노이만 구조 정리본 생성`
-        - `fix(week3-OS) : 프로세스 상태 표 오타 수정`
-        - `chore(week4-) : 'Cash_Memory.md' -> 'Cache_Memory.md' 파일명 수정`
+- <a href="docs/PR_Commit_Rule.md">PR & Commit 규칙은 이곳에서 확인 가능합니다.</a>
+- 폴더 및 파일 생성 시 영어로 작성합니다.
+    <details>
+    <summary>📚 Weekly Study Topics (Eng)</summary>
+
+    | Week | Mon | Tue | Wed | Thu | Fri |
+    |------|-----|-----|-----|-----|-----|
+    | 1 (Computer Architecture) | Von Neumann Architecture | CPU & Registers | Cache Memory | Instruction Cycle & Pipelining | Interrupts |
+    | 2 | RISC vs CISC | Clock & CPI | Parallel Processing & Multi-core | Bus Architecture & I/O |  |
+    | 3 (Operating System) | Process Concept & State Transition | Process vs Thread | Scheduling Algorithms | Context Switching | Synchronization Techniques |
+    | 4 | Deadlock | Memory Management | Paging & Segmentation | Virtual Memory & Page Replacement |  |
+    | 5 | File System Basics | File Access Methods | I/O Systems & Disk Scheduling | System Calls & OS Structure | IPC & Virtualization/Security |
+    | 6 (Network) | OSI 7 Layers & TCP/IP | Data Link Layer | IP Addressing | Routing | TCP vs UDP |
+    | 7 | 3-Way/4-Way Handshake | Flow Control & Congestion Control | NAT, VPN, Firewall | DNS & DHCP | HTTP / HTTPS |
+    | 8 (Network + DB) | Load Balancing & CDN | REST API | Data Model & Schema | Relational DB Basics | Transactions & ACID |
+    | 9 | Transaction Isolation Levels | Indexes | Join Algorithms | Normalization & Denormalization | DB Locks & Concurrency Control |
+    | 10 (DB + Design Patterns) | Distributed DB | NoSQL | Singleton & Factory | Strategy & Template Method | Observer & Publisher-Subscriber |
+    | 11 | Adapter, Decorator & Proxy | Builder & Command |  |  |  |
+    | 12 |  |  |  |  |  |
+
+    </details>
+
     
 
-## 🏫 Study Topics
+## 🏫 Weekly Study Topics
 
-### 9월
----
-||월|화|수|목|금|
-|---|---|---|---|---|---|
-|1주차 (25.09.01-25.09.05)|폰 노이만 구조|CPU & 레지스터|캐시 메모리|명령어 사이클 & 파이프라이닝|인터럽트|
-|2주차 (25.09.08-25.09.12)|RISC vs CISC|클럭 & CPI|병렬 처리 & 멀티 코어|버스 구조 & I/O||
-|3주차 (25.09.15-25.09.19)|프로세스 개념 & 상태 전이|프로세스 vs 스레드|스케줄링 알고리즘|문맥 교환|동기화 기법|
-|4주차 (25.09.22-25.09.26)|교착상태|메모리 관리|페이징 & 세그멘테이션|가상 메모리 & 페이지 교체||
-|5주차 (25.09.29-25.10.03)|파일 시스템 기초|파일 접근 방식|입출력 시스템 & 디스크 스케줄링|시스템 콜 & OS 구조|IPC & 가상화/보안|
+## 9월
+
+| 주차 | 월 | 화 | 수 | 목 | 금 |
+|------|-----|-----|-----|-----|-----|
+| 1 (컴퓨터 구조) | 폰 노이만 구조 | CPU & 레지스터 | 캐시 메모리 | 명령어 사이클 & 파이프라이닝 | 인터럽트 |
+| 2 | RISC vs CISC | 클럭 & CPI | 병렬 처리 & 멀티코어 | 버스 구조 & I/O |  |
+| 3 (운영체제) | 프로세스 개념 & 상태 전이 | 프로세스 vs 스레드 | 스케줄링 알고리즘 | 문맥 교환 | 동기화 기법 |
+| 4 | 교착상태 | 메모리 관리 | 페이징 & 세그멘테이션 | 가상 메모리 & 페이지 교체 |  |
+| 5 | 파일 시스템 기초 | 파일 접근 방식 | 입출력 시스템 & 디스크 스케줄링 | 시스템 콜 & OS 구조 | IPC & 가상화/보안 |
+
+
+
+## 10월
+
+| 주차 | 월 | 화 | 수 | 목 | 금 |
+|------|-----|-----|-----|-----|-----|
+| 6 (네트워크) | OSI 7계층 & TCP/IP | 데이터링크 계층 | IP 주소 체계 | 라우팅 | TCP vs UDP |
+| 7 | 3-Way/4-Way 핸드셰이크 | 흐름 제어 & 혼잡 제어 | NAT, VPN, 방화벽 | DNS & DHCP | HTTP / HTTPS |
+| 8 (네트워크 + DB) | 로드밸런싱 & CDN | REST API | 데이터 모델 & 스키마 | 관계형 DB 기본 | 트랜잭션 & ACID |
+
+
+
+## 11월
+
+| 주차 | 월 | 화 | 수 | 목 | 금 |
+|------|-----|-----|-----|-----|-----|
+| 9 | 트랜잭션 격리 수준 | 인덱스 | 조인 알고리즘 | 정규화 & 반정규화 | DB Lock & 동시성 제어 |
+| 10 (DB + 디자인패턴) | 분산 DB | NoSQL | 싱글톤 & 팩토리 | 전략 & 템플릿 메서드 | 옵저버 & 퍼블리셔-서브스크라이버 |
+| 11 | 어댑터 & 데코레이터 & 프록시 | 빌더 & 커맨드 |  |  |  |
