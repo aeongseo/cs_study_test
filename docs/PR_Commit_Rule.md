@@ -5,7 +5,7 @@
 - PR 내용에는 학습 주제별로 요약하여 작성합니다.
 - 해당하는 주제 라벨을 선택합니다.
 - 예시
-<img width="1137" height="712" alt="Image" src="https://github.com/user-attachments/assets/e8479e45-709c-4e31-a300-8818670d6f27" />
+<img width="900" alt="pr" src="https://github.com/user-attachments/assets/ca188d57-a809-42e7-821c-1c91fb2ec3dc" />
 
 ## Commit 규칙
 - type
